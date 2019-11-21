@@ -160,14 +160,14 @@ export default {
     onSuccess: {
       type: Function,
       default: () => {
-        console.log("成功");
+        // console.log("成功");
       }
     },
     // 失败的回调
     onError: {
       type: Function,
       default: () => {
-        console.log("失败");
+        // console.log("失败");
       }
     },
     verificationShow: {
@@ -449,8 +449,8 @@ export default {
       self.$refs.puzzleShadow.style.left = d + "px";
       self.$refs.puzzleShadow.style.transition = "inherit";
       self.dataOldWidth = d;
-      console.log(d);
-      console.log(self.dataOldWidth);
+      // console.log(d);
+      // console.log(self.dataOldWidth);
     },
     /* 移动结束，验证并回调 */
     moveEnd(e) {

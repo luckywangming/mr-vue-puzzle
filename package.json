@@ -1,6 +1,6 @@
 {
   "name": "mr-vue-puzzle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个纯前端的拖拽图片拼图的验证vue组件，支持大小、形状、图片、偏差、范围的自定义",
   "main": "dist/puzzleVerification.min.js",
   "dependencies": {
