@@ -1,5 +1,16 @@
-# vue-puzzle-verification
-封装的一个用于登录验证的拼图的vue组件，使用了canvas画图和拖拽的一些技巧。支持大小、形状、图片、偏差、范围的自定义。
+# mr-vue-puzzle
+基于公司需求扩展 [vue-puzzle-verification原作者路径](https://github.com/Kevin-269581661/vue-puzzle-verification)
+
+新增参数 forbid title及交互优化
+
+使用：
+```
+npm i mr-vue-puzzle
+
+局部引用：
+
+import PuzzleVerification from 'vue-puzzle-verification'
+```
 ## 效果展示
 ### 1. 简单用法:
 ```html
